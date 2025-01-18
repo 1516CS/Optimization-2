@@ -1,0 +1,83 @@
+Results
+
+Considering all the business constraints of caravan park management, the optimized solution for maximizing profit per night is as follows:
+
+Optimized Allocation:
+	Optimal Number of Caravans per Night (X): 6
+	Optimal Number of Tents per Night (Y): 8
+	Maximum Possible Profit per Night: $300
+
+Resource Utilization:
+Total Space Allocation: Space Used: 160m² * 6 + 90m² * 8 = 1680m²
+Unused Space: 120m²
+
+Total Occupancy:
+Occupants: 4 * 6 + 3 * 8 = 48 (Maximum allowable occupancy fully utilized)
+
+The caravan park can achieve a nightly profit of $300 by accommodating 6 caravans (the maximum allowed) and 8 tents. The total space used will be 1680m², leaving 120m² unused. The occupancy reaches the maximum limit of 48 people, ensuring full utilization of this constraint.
+
+
+Scenario Analysis
+Based on sensitivity analysis, various scenarios were explored to understand their impact on the nightly profit:
+
+Scenario 1: Increasing the Price for Caravans by 100%
+	New Caravan Price: $60 per night
+	Range of Optimality: [$20 – $1030]
+
+Updated Profit:
+	Caravans: $60 * 6 = $360
+	Tents: $15 * 8 = $120
+
+Total: $480
+
+By doubling the price for caravans, the park can increase profit by $180 per night, resulting in a total nightly profit of $480 without altering the optimal allocation of 6 caravans and 8 tents.
+---------------------------------------------------------------------------
+
+Scenario 2: Increasing the Price for Tents by 100%
+	New Tent Price: $30 per night	
+	Range of Optimality: [$0 – $22.5]
+
+Updated Allocation and Profit:
+	Caravans: 0
+	Tents: 16
+	Profit: $30 * 16 = $480
+
+While a 100% price increase for tents is outside the range of optimality for the original solution, re-optimizing results in a nightly profit of $480. However, the park will not accommodate any caravans, leaving 360m² unused.
+
+Scenario 3: Allowing 50% More Caravans
+	Maximum Allowed Caravans: 9
+	Updated Profit:
+
+New Total Profit: $330
+
+Updated Allocation:
+	Caravans: 9
+	Tents: 4
+
+Increasing the maximum allowed caravans to 9 increases the profit to $330 per night, fully utilizing the available space and adhering to occupancy constraints.
+
+
+---------------------------------------------------------------------------
+
+Scenario 4: Implementing COVID Restrictions (Limit Total Occupancy to 30)
+
+Updated Allocation and Profit:
+	Caravans: 6
+	Tents: 2
+
+Profit Reduction: $5 * 18 = –$90
+New Total Profit: $210
+Unused Space: 660m²
+
+Reducing the total occupancy to 30 significantly reduces the nightly profit by $90 and leaves 660m² of space unused. This highlights the trade-off between profitability and adhering to public health measures.
+
+Conclusion
+
+This analysis provides an optimal allocation plan for caravans and tents to maximize profit for a caravan park spanning 1800m². Under standard constraints, the park can achieve a profit of $300 per night by allocating 6 caravans and 8 tents, utilizing 1680m² of space and accommodating 48 people.
+
+Key insights include:
+
+Price Adjustments: Doubling caravan or tent prices can increase nightly profits to $480. However, reallocation of space may result in unused capacity.
+Caravan Capacity: Allowing 50% more caravans (up to 9) can increase profit to $330, fully utilizing resources.
+COVID Restrictions: Reducing total occupancy to 30 decreases profit to $210 per night and leaves significant space unused.
+To enhance profitability, the park should consider adjusting pricing and increasing caravan capacity while carefully balancing public health and operational constraints.

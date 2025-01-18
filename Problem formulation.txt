@@ -1,0 +1,13 @@
+Decision variables:
+	X = Number of Caravans per night in the park	
+	Y = Number of Tents per night in the park
+		
+Objective: Maximize the total profit per night from Caravans and Tents
+Objective function:   Profit = 30X + 15Y
+
+Business constrains:
+	Total allocated space:   160X + 90Y <= 1800
+	Maximum number of Caravans:   X <= 6
+	Total Park occupancy:   4X + 3Y <= 48 (*Assuming each caravan and tent has maximum allowed number of occupants)
+	Non- negativity:     X, Y >= 0
+
